@@ -130,4 +130,4 @@ async function mergeAndPlay(urls) {
     source.playbackRate.value = 1.3;
     source.connect(ctx.destination);  
     source.start();  
-}
+} 
