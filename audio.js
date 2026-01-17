@@ -72,13 +72,13 @@ async function playSaga3Audio() {
         let ends   = p.endsWith("-");
 
         if(!starts && ends){
-            folder = "sa";   
+            folder = "Sa";   
         }
         else if(starts && ends){
-            folder = "se";   
+            folder = "Se";   
         }
         else if(starts && !ends){
-            folder = "si";   
+            folder = "Si";   
         }
 
         return folder + "/" + p + ".mp3";
